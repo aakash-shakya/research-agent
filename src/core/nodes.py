@@ -45,7 +45,7 @@ def researcher_node(state: AgentState) -> AgentState:
 
     # Parse response (assume: answer + notes + bookmarks; in prod, use structured parser)
     notes = [response]  # Simplified; extract gaps/unknowns from response
-    bookmarks = ["Sample citation from corpus"]  # Enhance with retriever metadata (e.g., doc.metadata['source'])
+    bookmarks = []  # Enhance with retriever metadata (e.g., doc.metadata['source'])
 
     state["notes"].extend(notes)
     state["bookmarks"].extend(bookmarks)

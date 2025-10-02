@@ -5,8 +5,8 @@ langchain-google-genai
 langchain-community
 langchain-tavily
 tavily-python
-faiss-cpu
 python-dotenv
 sentence-transformers
 pypdf
 langchain-text-splitters
+langchain-huggingface
